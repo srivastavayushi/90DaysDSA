@@ -1,12 +1,12 @@
-### Day One
+# Day One
 
-##### What is Rate of Growth?
+### What is Rate of Growth?
 The rate at which the running time increases as a function of input is called rate of growth. 
 
-##### Commonly Used Rates of Growth
+### Commonly Used Rates of Growth
 ![ROG](./assets/1.png)
 
-##### Rates of Growth and Examples
+### Rates of Growth and Examples
 ![Equations](./assets/2.png)
 
 We represent the algorithm with multiple expressions: one for the case where it takes less time and another for the case where it takes more time.
@@ -61,7 +61,7 @@ In general, the first case is called the **best case** and the second case is ca
   3. Θ(g(n)) is the set of functions with the same order of growth as g(n).
 
 
-#### Why is it called Asymptotic Analysis?
+### Why is it called Asymptotic Analysis?
 
 - For all three notations: worst case, best case, and average case, we can easily understand that, in every case for a given function f(n) we are trying to find another function g(n) which approximates f(n) at higher values of n. That means g(n) is also a curve which approximates f(n) at higher values of n.
 
